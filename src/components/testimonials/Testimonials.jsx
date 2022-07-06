@@ -2,8 +2,7 @@ import React from 'react'
 import './testimonials.css'
 import proflie1 from './../../assets/avatar1.jpg'
 import proflie2 from './../../assets/avatar2.jpg'
-import proflie3 from './../../assets/avatar3.jpg'
-import proflie4 from './../../assets/avatar4.jpg'
+
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper'
@@ -15,39 +14,25 @@ const data_profile = [
   {
     id: 1,
     imagem: proflie1,
-    titulo: 'User Profle',
-    nome_user: 'Ernast Archtecture',
-    review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores optio, quas voluptates dolorem rem hic, pariatur alias, distinctio exercitationem officia quibusdam necessitatibus facilis vel ipsam laboriosam temporibus? Atque, praesentium reprehenderit?',
+    titulo: 'exercito-brasileiro',
+    nome_user: 'Exército Brasileiro',
+    review:'De 2015 até 2020, Soldado EP no PQRMNT/5 trabalhei na seção de manutenção de ótica, na seção de suprimento e na seção de compras. Realizei estágio de atividades na CRO/5, onde tive maior contato com o sistema BIM.',
   },
 
   {
     id: 2,
     imagem: proflie2,
     titulo: 'User Profle',
-    nome_user: 'Ernast Archtecture',
-    review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores optio, quas voluptates dolorem rem hic, pariatur alias, distinctio exercitationem officia quibusdam necessitatibus facilis vel ipsam laboriosam temporibus? Atque, praesentium reprehenderit?',
-  },
-  {
-    id: 3,
-    imagem: proflie3,
-    titulo: 'User Profle',
-    nome_user: 'Ernast Archtecture',
-    review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores optio, quas voluptates dolorem rem hic, pariatur alias, distinctio exercitationem officia quibusdam necessitatibus facilis vel ipsam laboriosam temporibus? Atque, praesentium reprehenderit?',
-  },
-  {
-    id: 4,
-    imagem: proflie4,
-    titulo: 'User Profle',
-    nome_user: 'Ernast Archtecture',
-    review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores optio, quas voluptates dolorem rem hic, pariatur alias, distinctio exercitationem officia quibusdam necessitatibus facilis vel ipsam laboriosam temporibus? Atque, praesentium reprehenderit?',
-  },
+    nome_user: 'Prefeitura Municipal de Campo Magro',
+    review:'De 2020 até os dias atuais, Estagiário na SEDUA (Urbanismo), recebi bastante experiencia e conhecimento na área de Urbanismo, experiencia na questão orçamentária de projetos, tenho uma grande aprendizagem de análise de projetos e noções de aplicação real de georreferenciamento.',
+  }
 ]
 
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Feedback dos</h5>
-      <h2>Clientes</h2>
+      <h5>Minhas experiências</h5>
+      <h2>Profissionais</h2>
 
       <Swiper className="container testimonials__container"
       // install Swiper modules

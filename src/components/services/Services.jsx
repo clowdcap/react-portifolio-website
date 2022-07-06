@@ -11,34 +11,35 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Arquiteto e Urbanista</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
+              <p>Desenvolvimento de projetos residenciais e comerciais</p>  
             </li>
 
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
+              <p>Consultoria em projetos para aprovação de Prefeitura</p>  
             </li>
 
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
+              <p>Soluções para projetos com ênfase na sustentabilidade</p>  
             </li>
 
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
+              <p>Entrevistas para Briefing e Brainstorm mais completos</p>  
             </li>
 
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
+              <p>Utilização do Sistema BIM em nossos projetos</p>  
             </li>
+            
           </ul>
 
         </article>
@@ -51,27 +52,17 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
+              <p>Desenvolvimento de landing pages, portifolios, blogs e sistemas em geral</p>  
             </li>
 
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
+              <p>Soluções tecnologicas e com constante atualizações na área</p>  
             </li>
 
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
+              <p>Utilização de Python e JavaScript como linguagens princiais</p>  
             </li>
           </ul>
 
@@ -79,33 +70,28 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Render e Design</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
+              <p>Modelagem 3D de ambientes</p>  
             </li>
 
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
+              <p>Renderização em motores gráficos da Epic Games</p>  
             </li>
 
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
+              <p>Consultoria de projetos de maquetes eletronicas</p>  
             </li>
 
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quibusdam!</p>  
+              <p>Utilização dos softwares atualizados</p>  
             </li>
           </ul>
 

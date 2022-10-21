@@ -4,12 +4,12 @@ Esse projeto tem como intuito de demonstrar minhas habilidades e conceitos com R
 Embora esssa seja de uma aplicação simples, consegui desenvolver um projeto completo, onde o mesmo pode servir como mockup para outros projetos.
 
 ## Tecnologia aplicada
-
-Foi utilizado, React JS, HTML e CSS
+**React JS, HTML e CSS**
 
 # Primeiros comandos
 ### `npm init`
-para instalar as dependencias necessárias já descritas no package.json
+Para instalar as dependencias necessárias já descritas no package.json
 
-Depois, inicipar o projeto com `npm start` e abrir o mesmo pelo link:.\
-[http://localhost:3000](http://localhost:3000) no seu navegador
+Depois, inicipar o projeto com 
+### `npm start` 
+e abrir o mesmo pelo link: [http://localhost:3000](http://localhost:3000) no seu navegador

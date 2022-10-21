@@ -1,8 +1,6 @@
 import React from 'react'
 import './footer.css'
-import {AiFillGithub} from 'react-icons/ai'
-import {AiFillFacebook} from 'react-icons/ai'
-import {AiFillInstagram} from 'react-icons/ai'
+import {AiFillGithub, AiFillFacebook, AiFillInstagram} from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -20,9 +18,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://github.com/clowdcap" target="_blank"><AiFillGithub /></a>
-        <a href="https://www.facebook.com/jose.marinho0" target="_blank"><AiFillFacebook /></a>
-        <a href="https://www.instagram.com/arquitetomarinho/" target="_blank"><AiFillInstagram /></a>
+        <a href="https://github.com/clowdcap" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
+        <a href="https://www.facebook.com/jose.marinho0" target="_blank" rel="noopener noreferrer"><AiFillFacebook /></a>
+        <a href="https://www.instagram.com/arquitetomarinho/" target="_blank" rel="noopener noreferrer"><AiFillInstagram /></a>
       </div>
 
       <div className="footer__copyright">
